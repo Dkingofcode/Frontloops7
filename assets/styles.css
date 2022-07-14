@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+.blog-post{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 30px auto;
+    border: 1px solid;
+    height: 550px;
+     box-shadow: 0 8px 9px 0 rgba(0,0,0,0.17);
+}
+
+.Title{
+    background-color: rgb(70, 70, 70);
+    grid-column: 1 / span 5;
+    padding: 40px 0 8px 31px;
+}
+.Title header{
+    border: 1px solid;
+}
+
+.Title h2{
+    font-weight: 700;
+    color: white;
+    font-size: 28px;
+}
+
+.Title h2:nth-child(2){
+    border: 1px solid;
+    font-weight: 100;
+}
+
+.Title .rule{
+    background-color: rgb(197, 104, 67);
+    width: 15%;
+    height: 5px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+
+.Title footer{
+    border: 1px solid;
+    margin-top: 320px;
+    color: white;
+    display: flex;
+}
+
+.Title footer p{
+  margin-top: 16px;
+  font-size: 19px;
+  margin-left: 5px;
+}
+
+.Title footer img{
+    border-radius: 50px;
+    width: 15%;
+    box-shadow: 0 8px 5px 0 rgba(0,0,0,0.17);
+}
+
+
+
+
+.message{
+    background-color: white;
+    grid-column: 6 / span 8;
+    padding: 50px 0px 4px 0px;
+}
+
+.message p{
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 100;
+    padding: 0 30px;
+}
+.message p:nth-child(2){
+    margin-top: 25px;
+    padding-bottom: 20px; 
+}
+
+span{
+    font-weight: 800;
+    font-size: 20px;
+}
+.time{
+    font-size: 15px;
+}
+
+.message .fade{
+    border: 1px solid;
+    background-color:  rgb(226, 224, 224);
+    height: 4px;
+    padding: 4px 0;
+}
+
+.message footer{
+    border: 1px solid;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+h5{
+   font-size: 15px;
+   font-weight: 100;    
+}
+
+.icons{
+     display: flex;
+     justify-content: space-around;
+     border: 1px solid;
+     width: 20%;
+}
+
+h6{
+    color: rgb(223, 217, 217);
+    font-size: 16px;
+}
+
+
+
+
+
+
+
